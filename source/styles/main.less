@@ -32,7 +32,7 @@ body {
     }
 
     @media @breakpointMobile {
-        max-width: 70%;
+        max-width: 80%;
     }
 }
 
@@ -49,6 +49,10 @@ header {
         width: 180px;
         height: 180px;
         
+        @media @breakpointMobile {
+            width: 150px;
+            height: 150px;
+        }
     }
 }
 
@@ -70,6 +74,22 @@ li {
     &-description {
         font-size: 14px;
         opacity: .7;
+    }
+
+    @media @breakpointMobile {
+
+        &-name {
+            font-size: 22px;
+            .marginBottom8()
+        }
+        &-subtitle {
+            font-size: 14px;
+            .marginBottom8();
+        }
+        &-description {
+            font-size: 14px;
+            opacity: .7;
+        }
     }
 }
 
