@@ -1,0 +1,20 @@
+{
+  "name": "projeto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp watch",
+    "less": "less-watch-compiler ./source/styles/ ./build/styles main.less",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-less": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "less": "^4.2.0",
+    "less-watch-compiler": "^1.16.3"
+  }
+}
