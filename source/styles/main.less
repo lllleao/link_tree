@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: #cores[corDeFundo];
+    background: #cores[corDeFundo];
     color: #cores[corTextos];
 }
 
@@ -40,12 +40,12 @@ header {
     padding-bottom: 24px;
 
     .profile-avatar {
-        border: 2px solid #fff;
+        // border: 2px solid #fff;
         box-shadow: 0 0 25px rgb(96, 32, 170);
         display: block;
         margin: 0 auto 24px;
         border-radius: 50%;
-        padding: 8px;
+        // padding: 8px;
         width: 180px;
         height: 180px;
         
@@ -117,7 +117,7 @@ li {
             max-width: 50%;
             text-decoration: none;
             color: #cores[corTextos];
-            background-color: #cores[corBotoes];
+            background: #cores[corBotoes];
             display: block;
             padding: 16px 20px;
             margin-bottom: 20px;
@@ -126,12 +126,12 @@ li {
             text-align: center;
             border-radius: 30px;
             font-weight: bold;
-            border: 1px solid #cores[corBotoes];
+            border: 1px solid #cores[corBotoesBorda];
             transition: all ease .5s;
 
             &:hover {
-                color: #cores[corBotoesClaro];
-                background-color: transparent;
+                // color: #000000cc;
+                background-color: #cores[corBotoesBorda];
             }
 
             @media @breakpointMobile {
