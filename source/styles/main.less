@@ -15,14 +15,14 @@
 }
 
 body {
-    padding-top: 5rem;
-    height: 100svh;
+    padding-top: 5vh;
     background: #cores[corDeFundo];
 }
 
 .container {
     max-width: 560px;
     width: 100%;
+    height: calc(100vh - 5vh);
     // padding: 8rem 0 7.9rem;
     // height: 100vh;
     // height: 100vmax;
@@ -37,6 +37,10 @@ body {
 
     @media @breakpointMobile {
         max-width: 80%;
+    }
+
+    @media (max-width: 775px) {
+        height: calc(100svh - 5vh);
     }
 }
 
